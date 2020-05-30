@@ -1,0 +1,184 @@
+@import 'normalize'
+@import 'mixin'
+
+
+.btn_blue
+    +btn_blue()
+
+
+body
+    background: #f5f5f5
+
+
+.top_line
+    min-height: 120px
+    padding-top: 20px
+    padding-bottom: 20px
+    margin-bottom: 0 !important
+
+        
+    .logo_block
+        display: flex
+        justify-content: center
+        flex-direction: column
+        align-items: center
+        img
+            width: 15%
+            margin-bottom: 10px
+
+    .stat_block
+        display: flex
+        justify-content: center
+        flex-direction: row
+        align-items: center
+        padding-top: 20px
+
+        .num_red
+            color: $red_color
+        
+        .num_blue
+            color: $blue_color
+        b
+            font-size: 50px
+            font-weight: bolder
+            padding-bottom: 15px
+            margin: 10px !important
+            
+        p
+            font-size: 16px
+            max-width: 300px
+
+
+.main_block
+    margin-bottom: 0 !important
+    padding-bottom: 30px !important
+    margin-top: 0 !important
+    padding-top: 0 !important
+
+    .preds
+        background-image: url('../img/preds.jpg')
+        background-size: cover
+        background-repeat: no-repeat
+        background-position: top
+        min-height: 300px
+        max-height: 300px
+        padding-bottom: 30px
+        padding-left: 60px
+        display: flex
+        flex-direction: column
+        justify-content: end
+        align-items: start
+        
+        h2
+
+            font-size: 20px
+            font-weight: bold
+            color: #ffffff
+
+    .stance_slider
+        padding-left: 15px !important
+        padding-right: 0 !important
+        .carousel-caption
+            right: 50px !important
+            left: 50px !important
+        .carousel-item
+            min-height: 300px !important
+            max-height: 300px !important
+            text-align-last: left !important
+            h2
+                font-size: 20px
+                font-weight: bold
+                color: #ffffff
+            img
+                min-height: 380px !important
+                max-height: 400px !important
+
+.second_line
+    margin-top: 0 !important
+    padding-top: 0 !important
+    ul
+        list-style: none
+        padding: 0px !important
+        margin-bottom: 0 !important
+        li
+            font-size: 18px
+            font-weight: bold
+            padding: 5px
+            transition: 0.4s
+            &:hover
+                background-color: $hover_btn
+
+
+    hr
+        // background-color: #ffffff
+        border: 1px solid #fff
+        width: 80%
+        margin: 10px auto
+
+    .left_sidebar
+        
+        padding: 0 !important
+        min-height: 600px
+
+        .btn_red
+            text-decoration: none
+            background-color: red
+            display: flex
+            align-items: center
+            
+            justify-content: center
+            color: #ffffff
+            font-size: 18px
+            font-weight: bold
+            height: 40px
+
+        .left_menu_block
+            color: #ffffff
+            padding: 30px
+            background-color: $blue_color
+            min-height: 550px
+            max-height: 550px
+            display: flex
+            flex-direction: column
+            justify-content: space-around
+            margin-bottom: 10px
+
+            .left_sidebar_item
+                text-decoration: none
+                color: #ffffff
+            b
+                color: #ffffff
+                font-size: 18px
+            div
+                display: flex
+                flex-direction: column
+                text-align: right
+                a
+                    text-decoration: none
+                    color: #ffffff
+    .right_sidebar
+        background-color: $blue_color
+        padding: 30px
+        
+        min-height: 600px
+        .drop
+            background-color: $hover_light
+            li
+                transition: 0.4s
+                &:hover
+                    background-color: $hover_btn
+                a
+                    font-size: 16px
+                    font-weight: normal
+                
+        a
+            text-decoration: none
+            color: #ffffff
+        
+
+
+        
+        
+
+        
+            
