@@ -66,7 +66,7 @@ body
         padding-left: 60px
         display: flex
         flex-direction: column
-        justify-content: end
+        justify-content: flex-end
         align-items: start
         
         h2
@@ -174,10 +174,173 @@ body
         a
             text-decoration: none
             color: #ffffff
-        
 
 
+.last_news
+
+    h2
+        font-size: 40px
+        font-weight: bold
+        padding-bottom: 30px
+    .post
+        display: flex
+        flex-direction: row
+        justify-content: start
+        padding: 0 !important
+        img
+            width: 250px
+            position: relative
+
+        .post_text
+            width: 70%
+            padding: 30px
+            align-self: center
+            h3
+                font-weight: bold
+                font-size: 28px
+    .all_news
+        margin: 0 auto
+        display: block
+        width: 173px
+        margin-top: 30px
+        text-align: center
+          
+.docs
+
+    h2
+        font-size: 40px
+        font-weight: bold
+        padding-bottom: 30px
+
+    .doc_item
+        padding: 30px
+
+    .all_docs
+        margin: 0 auto
+        display: block
+        width: 173px
+        margin-top: 30px
+        text-align: center
+
+
+footer
+    background: $blue_color
+    padding-top: 50px
+    padding-bottom: 50px
+    ul
+        list-style: none
+        li
+            padding-top: 10px
+            color: #ffffff
+            font-weight: bold
+            font-size: 18px        
+            a
+                text-decoration: none
+                color: #ffffff
+
+            .contact_list_item
+                font-weight: normal !important
+                padding-left: 40px
+                
+
+
+
         
+            
+
+@media screen and ( max-width: 575.98px )
+    .main_block
+        margin-top: 75px !important
+        h2
+            font-size: 50px
+        .stance_slider
+            padding: 0 !important
+            width: 100%
+
+        .preds
+            padding: 15px
+    
+
+@media screen and ( max-width: 767.98px )
+   .main_block
+        margin-top: 75px !important
+        h2
+            font-size: 50px
+        .stance_slider
+            padding: 0 !important
+            width: 100%
+
+    
+        .preds
+            padding: 15px
+        .post
+            display: flex
+            flex-direction: column
+            img
+                display: block !important
+                position: relative
+                max-width: 100% !important
+                min-width: 100%
+                margin: 0
+    .left_sidebar, .right_sidebar
+        box-shadow: none !important
+
+    
+
+@media screen and ( max-width: 1199.98px )
+    .left_sidebar, .right_sidebar 
+        display: block !important
+        box-shadow: none
+        
+    .main_block
+        h2
+            font-size: 50px
+        .stance_slider
+            padding: 0 !important
+            width: 100%
+            margin-bottom: 30px
+
+            .carousel-item
+                min-height: 450px !important
+                max-height: 450px !important
+                text-align-last: left !important
+                h2
+                    font-size: 20px
+                    font-weight: bold
+                    color: #ffffff
+                img
+                    min-height: 450px !important
+                    max-height: 450px !important
+
+        .preds
+            padding: 15px
+            margin-bottom: 30px
+            min-height: 450px !important
+            max-height: 450px !important
+        
+    .video_block
+        padding: 0
+        margin-top: 15px
+
+
+    .post
+        display: flex
+        flex-direction: column !important
+        img
+            position: relative
+            width: 100% !important
+            margin: 0
+
+
+
+
+@media screen and ( max-width: 1400px )
+    .left_sidebar, .right_sidebar 
+        display: block !important
+
+
+
+     
         
 
         
